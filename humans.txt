@@ -1,0 +1,16 @@
+/* TEAM */
+Your title: MicroTrain2111
+Site: microtrain2111.github.io/contact.html
+Linkedin: linkedin/in/microtrain-technologies
+Github: github.com/microtrain2111
+Location: Chicago, IL, USA
+
+/* THANKS */
+Name: microtrain technologies
+URL: www.microtrain.net
+
+/* SITE */
+Last update: 2021/11/11
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: LAMP. MERN, MEAN, VSCode, etc.

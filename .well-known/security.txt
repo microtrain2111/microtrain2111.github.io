@@ -1,0 +1,4 @@
+Contact: https://microtrain2111.github.io/contact.html
+Expires: 2022-11-11T22:20:00.000Z
+Acknowledgments: microtrain2111.github.io/humans.txt
+Preferred-Languages: en, es
