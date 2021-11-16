@@ -6,22 +6,30 @@
       <meta name="description" content="Contact MicroTrain2111">
       <meta name="keywords" content="contact, web development, application development, MicroTrain2111">
       <title>MicroTrain2111 Contact</title>
+      <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
       <link rel="icon" href="favicon.ico" type="image/x-icon" />
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest"> 
+      <link rel="manifest" href="site.webmanifest"> 
     </head>
     <body>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-    <main>          
+      <header>
+        <span class="logo">MicroTrain2111</span>
+        <a id="toggleMenu">Menu<a>
+          <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <h1>Contact MicroTrain2111</h1>
+      <p>Send me a message for web and application development.</p>
+        
     <form action="https://formspree.io/chad@killer-sites.com" method="POST">
       <div>
         <label for="name">Name</label>
@@ -47,5 +55,21 @@
 
     </form>
   </main>
+  <script>
+
+    var toggleMenu = document.getElementById('toggleMenu');
+    var nav = document.querySelector('nav');
+    toggleMenu.addEventListener(
+      'click',
+      function(){
+        if(nav.style.display=='block'){
+          nav.style.display='none';
+        }else{
+          nav.style.display='block';
+        }
+      }
+    );
+  </script>
+
   </body>
 </html>
